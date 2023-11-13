@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+  }
+  header {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)),
+      url(/img/bg.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  .navbar {
+    width: 100%;
+    margin: auto;
+    display: inline-block;
+  }
+  .logo {
+    float: left;
+  }
+  .logo img {
+    width: 20%;
+    padding: 20px;
+    float: right;
+  }
+  .nav-area {
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+  }
+  .nav-area li {
+    display: inline-block;
+    padding: 15px;
+  }
+  .nav-area li a {
+    color: whitesmoke;
+    border-radius: 30px;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: poppins;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+  .nav-area li a:hover {
+    background: yellow;
+    color: gray;
+  }
+  .form-box {
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    background-color: whitesmoke;
+    padding: 5px;
+    overflow: hidden;
+    transition: 0.5s;
+  }
+  .button-box {
+  width: 220px;
+  margin: 35px auto;
+  position: relative;
+  box-shadow: 0 0 20px 9px rgba(255, 255, 0, 0.3);
+  border-radius: 30px;
+}
+
+
+  .submit-btn {
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    position: relative;
+    display: absoulte;
+    margin: auto;
+    background: linear-gradient(to right, #d6fc04, #f1e209);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    margin-left: 20%;
+  }
+ 
+  

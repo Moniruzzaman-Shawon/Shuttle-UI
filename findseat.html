@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>NSU bus service</title>
+    <link rel="stylesheet" href="find.css" />
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <div class="logo">
+          <a href="http://www.northsouth.edu/">
+            <img src="img/logo.png" alt="" />
+          </a>
+        </div>
+        <ul class="nav-area">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="login.html">Login</a></li>
+          <li><a href="service.html">Services</a></li>
+          <li><a href="aboutus.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="form">
+        <div class="form-box">
+          <div class="button-box">
+            <div id="btn"></div>
+            <button type="button" class="toggle-btn" >
+              Find seat
+            </button>
+         
+            <!-- <button type="button" class="toggle-btn" onclick="Book()">
+                Book seat
+              </button> -->
+
+          </div>
+          <form class="input-group" id="Find">
+            <input
+              type="text"
+              class="input-field"
+              placeholder="Please enter bus route "
+              required
+            />
+            <input
+              type="text"
+              class="input-field"
+              placeholder="Please your drop location "
+              required
+            />
+    
+            <button type="submit" class="submit-btn">Find seat
+             
+            </button>
+            <!-- <form method="submit" action="bookseat.html"> 
+            </form> -->
+        </div>
+      </div>
+    </header>
+    <script>
+      var a = document.getElementById("Find");
+    
+
+      function Find() {
+        a.style.left = "-450px";
+        b.style.left = "50px";
+        c.style.left = "110px";
+      }
+    
+      
+    </script>
+  </body>
+</html>
